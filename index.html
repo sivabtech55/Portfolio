@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sivanagaraju Borraju</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sivanagaraju Borraju</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+  </body>
+<section id="profile">
+  <div class="section__pic-container">
+    <img
+      src="./assets/profile-pic.png"
+      alt="Profile picture"
+      class="about-pic"
+    />
+  </div>      
+  <div class="section__text">
+    <p class="section_text_p1">Hello, I'm</p>
+    <h1 class="title">Sivanagaraju Borraju</h1>
+    <p class="section_text_p2">Data Analyst</p>
+    <div class="btn-container">
+      <button
+        class="btn btn-color-2"
+        onclick="window.open('./assets/Sivanagaraju_DataAnalyst.pdf')"
+      >
+        Download CV
+      </button>
+      <button class="btn btn-color-1" onclick="location.href='#contact'">
+        Contact Info
+      </button>
+    </div>
+    <div id="socials-container">
+      <img
+        src="./assets/linkedin.png"
+        alt="My LinkedIn profile"
+        class="icon"
+        onclick="location.href='https://www.linkedin.com/in/sivanagaraju09/'"
+      />
+      <img
+        src="./assets/github.png"
+        alt="My Github profile"
+        class="icon"
+        onclick="location.href='https://github.com/sivabtech55?tab=repositories'"
+      />
+      <!-- <img -->
+        <!-- src="./assets/leetcode.png" -->
+        <!-- alt="My Leetcode profile" -->
+        <!-- class="icon" -->
+        <!-- onclick="location.href='https://leetcode.com/u/PeramRajasekharReddy/'" -->
+      <!-- /> -->
+    </div>
+  </div>
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#about'"
+  />
+</section>
+<section id="about">
+  <p class="section_text_p1">Get To Know More</p>
+  <h1 class="title">About Me</h1>
+  <div class="section-container">
+    <div class="section__pic-container">
+      <img
+        src="./assets/profile-pic-2.png"
+        alt="Profile picture"
+        class="about-pic"
+      />
+    </div>
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <img
+            src="./assets/experience.png"
+            alt="Experience icon"
+            class="icon"
+          />
+          <h3>Experience</h3>
+          <p>4+ years <br /> Data Analyst</p>
+        </div>
+        <div class="details-container">
+          <img
+            src="./assets/education.png"
+            alt="Education icon"
+            class="icon"
+          />
+          <h3>Education</h3>
+          <p>M.S. in Computer Science  <br />Lamar University</p>
+        </div>
+      </div>
+      <div class="text-container">
+        <p>
+          I am Sivanagaraju Borraju, a Data Analyst with over four years of experience turning complex data into actionable insights to support strategic decision-making. I specialize in statistical analysis, data visualization, and building scalable dashboards using tools such as SQL, Python, Power BI, and Excel. My expertise spans across data wrangling, ETL processes, and exploratory data analysis, with hands-on experience in cloud environments like AWS and Azure. I’ve contributed to optimizing business performance by automating reporting workflows and delivering data-driven solutions across diverse domains.
+        </p>
+      </div>
+    </div>
+  </div>
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='#experience'"
+  />
+</section>
+<section id="experience">
+  <p class="section_text_p1">Explore My</p>
+  <h1 class="title">Experience</h1>
+  <!-- <div class="experience-details-container"> -->
+    <div class="about-containers">
+        <div class="details-container">
+            <h2 class="experience-sub-title">Technical Skills</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                    <h3>Python</h3>
+                    <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                    <h3>SQL</h3>
+                    <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                    <h3>R</h3>
+                    <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                    <h3>Excel</h3>
+                    <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                    <h3>Power BI</h3>
+                    <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                    <h3>Tableau</h3>
+                    <p>Experienced</p>
+                </div>
+              </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                    <div>
+                        <h3>Looker</h3>
+                        <p>Experienced</p>
+                    </div>
+                </article>
+              <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                      <h3>MySQL</h3>
+                      <p>Experienced</p>
+                  </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                    <h3>PostgreSQL</h3>
+                    <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                    <h3>Mango DB</h3>
+                    <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                    <h3>SQL Server</h3>
+                    <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                    <h3>Oracle</h3>
+                    <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                      <h3>AWS</h3>
+                      <p>Experienced</p>
+                  </div>
+              </article>
+              <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                      <h3>Azure</h3>
+                      <p>Intermediate</p>
+                  </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                    <h3>GCP</h3>
+                    <p>Intermediate</p>
+                </div>
+            </article>
+              <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                      <h3>Apache Spark</h3>
+                      <p>Experienced</p>
+                  </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                    <h3>Databricks</h3>
+                    <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                    <h3>Snowflake</h3>
+                    <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                      <h3>Apache Airflow</h3>
+                      <p>Intermediate</p>
+                  </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                    <h3>Machine Learning</h3>
+                    <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <!-- <div class="experience-details-container"> -->
+  <!-- <div class="about-containers"> -->
+      <!-- <div class="details-container"> -->
+          <!-- <h2 class="experience-sub-title">Testing</h2> -->
+          <!-- <div class="article-container"> -->
+            <!-- <article> -->
+              <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/> -->
+              <!-- <div> -->
+                  <!-- <h3>Postman</h3> -->
+                  <!-- <p>Experienced</p> -->
+              <!-- </div> -->
+            <!-- </article> -->
+            <!-- <article> -->
+              <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/> -->
+              <!-- <div> -->
+                  <!-- <h3>JUnit</h3> -->
+                  <!-- <p>Experienced</p> -->
+              <!-- </div> -->
+            <!-- </article> -->
+            <!-- <article> -->
+              <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/> -->
+              <!-- <div> -->
+                  <!-- <h3>Pytest</h3> -->
+                  <!-- <p>Experienced</p> -->
+              <!-- </div> -->
+            <!-- </article> -->
+            <!-- <article> -->
+              <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/> -->
+              <!-- <div> -->
+                  <!-- <h3>Jest</h3> -->
+                  <!-- <p>Experienced</p> -->
+              <!-- </div> -->
+            <!-- </article> -->
+            <!-- <article> -->
+              <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/> -->
+              <!-- <div> -->
+                  <!-- <h3>Mockito</h3> -->
+                  <!-- <p>Experienced</p> -->
+              <!-- </div> -->
+            <!-- </article> -->
+            <!-- <article> -->
+              <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/> -->
+              <!-- <div> -->
+                  <!-- <h3>React Testing Library</h3> -->
+                  <!-- <p>Experienced</p> -->
+              <!-- </div> -->
+            <!-- </article> -->
+            <!-- <article> -->
+              <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/> -->
+              <!-- <div> -->
+                  <!-- <h3>Cypress</h3> -->
+                  <!-- <p>Intermediate</p> -->
+              <!-- </div> -->
+            <!-- </article> -->
+            <!-- <article> -->
+              <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/> -->
+              <!-- <div> -->
+                  <!-- <h3>Jenkins</h3> -->
+                  <!-- <p>Intermediate</p> -->
+              <!-- </div> -->
+            <!-- </article> -->
+          <!-- </div> -->
+      <!-- </div> -->
+  <!-- </div> -->
+<!-- </div>  -->
+  <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='#projects'"
+  />
+</section>
+<section id="projects">
+  <p class="section_text_p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-1.png"
+            alt="Fraud Detection and Risk Analytics"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Fraud Detection and Risk Analytics</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/sivabtech55/Risk-Analytics-in-Banking-and-Financial-Services'"
+            >
+            Github
+          </button>
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+          src="./assets/project-2.png"
+          alt="Multi-lingual Sentimental Analysis"
+          class="project-img"
+        />
+        </div>
+        <h2 class="experience-sub-title project-title">Multi-lingual Sentimental Analysis</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/sivabtech55/Multilingual-Sentiment-Analysis-Using-Machine-Learning-Models'"
+          >
+            Github
+          </button>
+          </button>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!-- <img -->
+        <!-- src="./assets/arrow.png" -->
+        <!-- alt="Arrow icon" -->
+        <!-- class="icon arrow" -->
+        <!-- onclick="location.href='./#contact'" -->
+      <!-- /> -->
+      <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='#contact'"
+  />
+    </section>
+    <section id="contact">
+      <p class="section_text_p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:sivabtech55@gmail.com">sivabtech55@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/sivanagaraju09/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Sivanagaraju Borraju. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
